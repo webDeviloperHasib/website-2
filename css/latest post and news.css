@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+                           /* .........................first-section.............................  */
+.first-section{
+  width: 100%;
+  height: 24vh;
+  background:linear-gradient(to right,#D42627,#28313B);
+}
+
+header{
+    margin-left: 100px;
+    padding-top: 35px;
+}
+
+.navbar-toggler-icon{
+    background-color: white !important;
+}
+
+.director-img{
+    width: 100%;
+    height: 460px; 
+}
+.watch-icon{
+    color: yellow;
+}
+.img-content{
+    margin-top: -300px;
+    text-align: center;
+    color: white;
+}
+.button{
+    padding: 2px 8px;
+    background-color: #D42627;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.column-gap{
+    column-gap: 10px !important;
+}
+.column-gap img{
+    width: 110%;
+    height: 225px;
+}
+
+.img-contentt{
+    margin-top: -180px;
+    text-align: center;
+    color:white;
+}
+
+.button-yellow{
+    padding: 8px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.short-img{
+    
+    
+}
+.short-img img{
+    width: 100%;
+    height: 200px;
+    transition: .6s;
+}
+.short-img img:hover{
+    width: 105%;
+    height: 210px;
+}
+
+.short-img span{
+    padding: 8px;
+    background-color: black;
+    color:#FFDA23;
+    font-weight: 900;
+    position: absolute;
+    bottom: -230px;
+}
+
+
+.long-img img{
+   width: 100%;
+   height: 400px;
+   transition: .5s;
+}
+
+.long-img img:hover{
+    width: 106%;
+    height: 415px;
+}
+
+.topenibo{
+    margin-top: -250px;
+}
+
+.margin-button{
+    margin-top: 130px;
+    margin-bottom:20px;
+}
+
+.imghover{
+    transition: .5s;
+}
+.imghover:hover{
+    width: 105% !important;
+    height: 210px !important;
+}
+
+.colimg{
+    width: 100%;
+    height: 160px;
+    transition: .5s;
+}
+.colimg:hover {
+    width: 105%;
+    height: 175px;
+}
+
+.forcolor{
+    background-color: black !important;
+    color:white !important;
+}
+.forcolor:hover{
+    background-color:yellow !important;
+    color: black !important;
+}
+.text{
+    width: 250px;
+    margin: auto;
+}
+
+.hcolor h5{
+    color: #03045e;
+}
+
+.hcolor .card-body{
+    background:linear-gradient(to right,#FAFAFA,#FFFFFF);
+}
+
+
+
+
+/* ..........................right side widgets...................................  */
+
+.Feedburner{
+    width: 300px;
+    height: 390px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 38px;
+    position: relative;
+}
+
+.Feedburner h5{
+    border-bottom: 4px solid #FFDA23;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    top: 26px;
+    left: 30px;
+    padding-bottom: 4px;
+}
+.before::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #FFDA23;
+    left: -4px;
+    top: 22px;
+}
+
+.subscribe-img{
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    float: right;
+    padding-left: 8px;
+}
+
+.imgdiv{
+    position: absolute;
+    top: 85px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.imgdiv span{
+    font-weight: 600;
+    font-style: italic;
+}
+.underline{
+    text-decoration:3px solid underline;
+    text-decoration-color: #FFDA23;
+}
+
+.paper-plane{
+    position: absolute;
+    right: 140px;
+    bottom: 120px;
+}
+
+.subscribe-from{
+    position: absolute;
+    top: 296px;
+    left: 32px;
+}
+.subscribe-from input{
+    width: 235px;
+    outline: none;
+    text-align: center;
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0,.1);
+}
+.subscribe-button{
+    width: 235px;
+    outline: none;
+    border: none;
+    background-color: #FFFF00;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding:1px;
+    color:white;
+}
+
+.subscribe-button:hover{
+    background-color:rgb(255, 255, 0,.4) ;
+}
+.Feedburnerr{
+    width: 300px;
+    height: 240px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 38px;
+    position: relative;
+}
+
+.Feedburnerr h5{
+    border-bottom: 4px solid #FFDA23;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    top: 26px;
+    left: 30px;
+    padding-bottom: 4px;
+}
+.before::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #FFDA23;
+    left: -4px;
+    top: 22px;
+}
+
+.like{
+   margin-bottom: 8px;
+}
+
+.mybutton{
+    position: absolute;
+    top:100px;
+    left: 30px;
+}
+
+.colorbg1{
+    background-color: #4064AC;
+}
+.colorbg2{
+    background-color:#1C9CEA ;
+}
+.colorbg3{
+    background-color: #F70000;
+}
+
+
+.colorbg1:hover{
+    background-color: rgb(64, 100, 172,.6);
+}
+.colorbg2:hover{
+    background-color:rgb(28, 156, 234,.6) ;
+}
+.colorbg3:hover{
+    background-color: rgb(247, 0, 0,.6);
+}
+
+.bou2img{
+    margin-left: 30px;
+    margin-top: 38px;
+}
+
+
+.toppost{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+    padding-left: 8px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.topwidth{
+    height: 380px;
+    margin-top: 60px;
+}
+
+.topmaindiv{
+    position: absolute;
+    top: 78px;
+}
+
+.footer-section-first{
+    width: 100%;
+  height: 350px;
+  background:linear-gradient(to right,#D42627,#28313B);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-first-content{
+    text-align: center;
+    width: 860px;
+    color: white;
+    letter-spacing: 4px;
+}
+.footer-first-content h2{
+    margin-bottom: 20px;
+}
+.footer-first-content h4{
+    margin-bottom: 34px;
+    letter-spacing: 2px;
+}
+.footer-first-content span{
+    background-color: black;
+    color: #FFDA23;
+    margin: 4px;
+    padding:12px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.footer-first-content button{
+    border:none;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top:2px;
+    margin-bottom: 2px;
+    padding:15px;
+}
+.footer-first-content button:hover{
+    color:#FFFF00;
+}
+
+.footer-section-last{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(25, 25, 25,.9);
+    color: white;
+}
+.footer-width{
+    width: 93%;
+    margin: auto;
+    height: 100%;
+}
+.border-none{
+    border-bottom: none !important;
+    text-decoration: none !important;
+}
+
+.fotdiv1 span{
+    background-color: black;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+.fotdiv1{
+    padding-top:20px !important;
+}
+.fotdiv2 ul li a i{
+    font-size: 22px;
+}
